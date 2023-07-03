@@ -1,0 +1,23 @@
+#title
+{
+    background-color: #097969;
+    color: #F88379;
+    text-align: center;
+}
+
+#divider
+{
+    background-color: black;
+    color: black;
+    font-size: 1;
+    padding: 0px 0px 0px 0px;
+    height: 2px;
+}
+
+#exp
+{
+    width: 100%;
+    visibility: hidden;
+    text-align: center;
+    background-color: red;
+}
