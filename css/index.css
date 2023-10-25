@@ -1,3 +1,4 @@
+/* Tags ==================================== */
 body
 {
     background-color: #D9EAD3;
@@ -6,6 +7,13 @@ body
     font-size: 15pt;
     
 }
+
+a
+{
+    color: #5A5A5A;
+}
+
+/* Classes ==================================== */
 
 .box
 {
@@ -37,17 +45,17 @@ body
     margin: 0;
 }
 
+/* IDs ==================================== */
+
 #about
 {
     background-color: #FFE599;
-    /* text-align: center; */
     display: flex;
     flex-wrap: wrap;
 }
 
 #about_block
 {
-    /* background-color: brown; */
     margin-left: 3%;
     margin-right: 1%;
 }
@@ -64,19 +72,39 @@ body
     text-align: left;
 }
 
+#links
+{
+    margin-top: 3px;
+}
+
 #projects
 {
     background-color: #93C47D;
 }
 
-/* Miscellaneous stuff. */
-#pic
+#education
+{
+    background-color: #F6B26B;
+}
+
+#self-study
+{
+    background-color: #DD7E6B;
+}
+/* Miscellaneous stuff. ==================================== */
+#pic_face
 {
     width: 150px;
+    height: 150px;
     border-radius: 10px;
 }
 
-#umich
+#linkedin
 {
-    color: #5A5A5A;
+    width: 40px;
+}
+
+#github
+{
+    width: 40px
 }
