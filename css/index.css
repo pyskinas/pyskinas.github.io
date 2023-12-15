@@ -10,7 +10,13 @@ body
 
 a
 {
-    color: #5A5A5A;
+    color: #AB0000;
+    text-decoration: none;
+}
+
+code
+{
+    font-size: 13pt;
 }
 
 /* Classes ==================================== */
@@ -91,6 +97,7 @@ a
 {
     background-color: #DD7E6B;
 }
+
 /* Miscellaneous stuff. ==================================== */
 #pic_face
 {
@@ -106,5 +113,5 @@ a
 
 #github
 {
-    width: 40px
+    width: 40px;
 }
